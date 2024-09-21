@@ -1,7 +1,7 @@
 public class Sj2{
     public static void main(String[] args){
-        int n1=8;
-	int n2=4;
+        int n1=args[0];
+	int n2=args[1];
 	int sum1=n1+n2;
 	int dif1=n1-n2;
 	int prd1=n1*n2;
