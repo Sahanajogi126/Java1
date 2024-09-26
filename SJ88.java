@@ -16,7 +16,7 @@ class Employee{
   public void getEmpDetails(){
     System.out.println(name + " " + id + " "+ salary);}}
       
-public class K88{
+public class SJ88{
   public static void main(String[] args){
     Employee emp1=new Employee(1,"Kuthyar",5000);
     emp1.getEmpDetails();
