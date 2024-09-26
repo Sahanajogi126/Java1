@@ -26,7 +26,7 @@ class Stack{
 System.out.println(stk[i]);}}}}
      
        
-public class K89{
+public class SJ89{
   public static void main(String[] args){
     int ch;
     Stack stack1=new Stack();
