@@ -21,19 +21,19 @@ public class Tools {
         System.out.println();    
     }
     public void mul3(){
-        for(int i=0;i<=30;i+=3){
+        for(int i=0;i<=n;i+=3){
             System.out.print(i+" ");        
         }
         System.out.println();       
     }
     public void mul4(){
-        for(int i=0;i<=32;i+=4){
+        for(int i=0;i<=n;i+=4){
             System.out.print(i+" ");        
         }
         System.out.println();       
     }
     public void mul5(){
-        for(int i=0;i<=30;i+=5){
+        for(int i=0;i<=n;i+=5){
             System.out.print(i+" ");        
         }
         System.out.println();       
