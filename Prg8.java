@@ -1,4 +1,4 @@
-public class prg8 {
+public class Prg8 {
     public static void main(String[] args){
         int x=7;
         System.out.println(x);
