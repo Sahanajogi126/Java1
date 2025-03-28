@@ -5,16 +5,16 @@ public class PrintB {
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < n; j++) {
                 if(i == 0 || i == n - 1 || i == n / 2) {
-                    System.out.print("* "); // Top, middle, and bottom horizontal lines
+                    System.out.print("* "); 
                 } else if (j == 0 || (j == n - 1 && i != 0 && i != n - 1 && i != n / 2)) {
-                    System.out.print("* "); // Left column and right column (except edges)
+                    System.out.print("* "); 
                 } else if (i == j || i + j == n - 1) {
-                    System.out.print("+ "); // Optional diagonal
+                    System.out.print("+ "); 
                 } else {
-                    System.out.print("  "); // Space
+                    System.out.print("  "); 
                 }
             }
-            System.out.println(); // Move to the next line
+            System.out.println();
         }
     }
 }
